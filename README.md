@@ -4,6 +4,9 @@ Teo's classes pushed me to build something more complete than a simple model —
 
 This project helped me evolve my understanding of Machine Learning pipelines and how to bring a model from training all the way to deployment.
 
+Check the app:
+[Streamlit App Link](https://churnmlprediction-8r5awpjdlqrzcxdp8reqoj.streamlit.app/)
+
 ### Skills Applied
 
 - Feature Engineering with Decision Tree-based discretization and One-Hot Encoding
@@ -68,9 +71,15 @@ streamlit run app/streamlit_app.py
 
 | Dataset | Accuracy | AUC-ROC |
 |---------|----------|---------|
-| Train   | 0.XX     | 0.XX    |
-| Test    | 0.XX     | 0.XX    |
-| OOT     | 0.XX     | 0.XX    |
+| Train   | 0.761     | 0.848    |
+| Test    | 0.756     | 0.826    |
+| OOT     |-.---      | 0.836    |
+
+The model showed stable performance across different datasets, indicating good generalization. On the training set, it achieved an AUC-ROC of 0.848 with 0.761 accuracy, demonstrating strong discriminative power.
+
+Performance remained consistent on the test set, with an AUC-ROC of 0.826 and accuracy of 0.756, suggesting limited overfitting. On the Out-of-Time (OOT) dataset, the model reached an AUC-ROC of 0.836, reinforcing its robustness on unseen, time-shifted data.
+
+Overall, the results indicate that the model is reliable and suitable for real-world churn prediction scenarios.
 
 ## Key Insights
 
