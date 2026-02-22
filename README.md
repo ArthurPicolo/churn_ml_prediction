@@ -5,7 +5,7 @@ Teo's classes pushed me to build something more complete than a simple model —
 This project helped me evolve my understanding of Machine Learning pipelines and how to bring a model from training all the way to deployment.
 
 Check the app:
-[Streamlit App Link](https://churnmlprediction-8r5awpjdlqrzcxdp8reqoj.streamlit.app/)
+[Streamlit](https://churnmlprediction-8r5awpjdlqrzcxdp8reqoj.streamlit.app/)
 
 ### Skills Applied
 
